@@ -48,4 +48,39 @@ body {
 #taka {
     color: crimson;
     border: solid rgba(220, 20, 60, 0.692);
+    background-color: #ffeeee;
+}
+.plan {
+    text-align: center;
+    padding: 50px 300px;
+}
+.plan h2 {
+    font-size: 40px;
+}
+.flex-container {
+    display: flex;
+    border: 20px;
+    padding: 20px 100px;
+    text-align: justify;
+    box-sizing: content-box;
+}
+.flex-container .box {
+    margin: 10px;
+    padding: 15px;
+}
+#food {
+    background-color: rgba(78, 158, 166, 0.1);
+}
+#shelter {
+    background-color: rgba(255, 87, 87, 0.1);
+}
+#edu {
+    background-color: #fff4d6;
+}
+footer {
+    color: aqua;
+    background-color: black;
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
 }
