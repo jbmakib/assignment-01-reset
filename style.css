@@ -18,7 +18,7 @@ body {
 .header h1 {
     font-size: 50px;
 }
-.header a {
+.button {
     background-color: crimson;
     color: white;
     padding: 14px 25px;
@@ -27,4 +27,25 @@ body {
     border-radius: 10px;
     margin-top: 40px;
     display: inline-block;
+}
+.today {
+    text-align: center;
+    padding: 100px 300px;
+}
+
+.today h2 {
+    font-size: 40px;
+}
+.amount {
+    display: flex;
+    justify-content: center;
+}
+.amount div {
+    margin: 10px;
+    padding: 8px 20px;
+    background-color: rgba(128, 128, 128, 0.14);
+}
+#taka {
+    color: crimson;
+    border: solid rgba(220, 20, 60, 0.692);
 }
