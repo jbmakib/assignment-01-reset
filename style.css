@@ -27,6 +27,9 @@ body {
     border-radius: 10px;
     margin-top: 40px;
     display: inline-block;
+    outline: none;
+    border: 0;
+    cursor: pointer;
 }
 #today {
     text-align: center;
@@ -102,6 +105,26 @@ body {
 }
 #getUpdateSection h2 {
     font-size: 40px;
+}
+#getUpdateSection form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 60px 200px 88px;
+    background-color: #fff4d6;
+}
+#getUpdateSection input[type="email"] {
+    background-color: lightgray;
+    border: 0;
+    outline: none;
+    display: inline-block;
+    padding: 14px 25px;
+    height: 100%;
+    margin: 0;
+    width: 250px;
+}
+#getUpdateSection input.button {
+    border-radius: 0;
 }
 footer {
     color: aqua;
