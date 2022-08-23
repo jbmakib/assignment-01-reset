@@ -6,7 +6,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-.header {
+#header {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url("./images/donation6.jpg");
     padding: 130px 300px;
@@ -15,7 +15,7 @@ body {
     color: white;
     text-align: center;
 }
-.header h1 {
+#header h1 {
     font-size: 50px;
 }
 .button {
@@ -28,12 +28,12 @@ body {
     margin-top: 40px;
     display: inline-block;
 }
-.today {
+#today {
     text-align: center;
     padding: 100px 300px 50px;
 }
 
-.today h2 {
+#today h2 {
     font-size: 40px;
 }
 .amount {
@@ -75,16 +75,33 @@ body {
 }
 .flex-container .box {
     margin: 10px;
-    padding: 15px;
+    padding: 40px 15px;
+}
+.flex-container .box p {
+    margin: 0;
+}
+.flex-container .box .box-icon {
+    font-size: 40px;
 }
 #food {
     background-color: rgba(78, 158, 166, 0.1);
 }
+
 #shelter {
     background-color: rgba(255, 87, 87, 0.1);
 }
 #edu {
     background-color: #fff4d6;
+}
+#getUpdateSection {
+    text-align: center;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+#getUpdateSection h2 {
+    font-size: 40px;
 }
 footer {
     color: aqua;
@@ -92,4 +109,7 @@ footer {
     margin: 0px;
     padding: 2px;
     text-align: center;
+}
+footer p {
+    color: white;
 }
