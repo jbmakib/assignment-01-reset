@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
 
 body {
     margin: 0px;
@@ -83,7 +83,7 @@ body {
 .flex-container .box p {
     margin: 0;
 }
-.flex-container .box .box-icon {
+.box-icon {
     font-size: 40px;
 }
 #food {
@@ -103,7 +103,31 @@ body {
     margin-right: 200px;
     margin-bottom: 20px;
 }
-#getUpdateSection h2 {
+#activity {
+    background-color: #060606;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+#activity h2 {
+    font-size: 30px;
+}
+.flexible-support {
+    display: flex;
+    justify-content: space-evenly;
+}
+.support {
+    margin: 20px;
+}
+.flexible-support .support h1 {
+    font-size: 50px;
+    margin: 0;
+    margin-top: 20px;
+    color: crimson;
+    font-weight: bold;
+}
+#getUpdateSection h1 {
     font-size: 40px;
 }
 #getUpdateSection form {
@@ -127,7 +151,7 @@ body {
     border-radius: 0;
 }
 footer {
-    color: aqua;
+    color: crimson;
     background-color: black;
     margin: 0px;
     padding: 2px;
